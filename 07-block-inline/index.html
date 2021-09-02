@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block-Inline</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>
+        Aprendiendo display con Pam
+    </h1>
+        <!-- Los block ocupan todo su ancho, mientras que los inline solo ocupan el espacio que tienen adentro -->
+        <!-- ."clase"+ intro genera un div con un class. Y etiqueta."clase" + intro genera una etiqueta con un clas  -->
+    <div class="soy-block">
+        <h2>Block</h2>
+        <p class="soy-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto ducimus voluptas ut cumque ullam autem quasi sed consequatur. Nobis voluptatem, ea consequuntur error deserunt asperiores quo laborum amet quis culpa.</p>
+    </div>
+
+    <!-- Inline -->
+    <div>
+        <h2>Inline</h2>
+        <p class="soy-inline">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem unde commodi voluptate sit repellendus ipsa doloremque explicabo culpa! Laboriosam numquam error ullam eaque quidem nemo deleniti laudantium eveniet magnam quisquam.</p>
+    </div>
+    <!-- Div Inline "Esta roto a proposito" Esto pasa si pones un div como inline, porque los hijos no lo heredan-->
+    <div class="soy-inline">
+        <h2>Div Inline</h2>
+        <p>Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem unde commodi voluptate sit repellendus ipsa doloremque explicabo culpa! Laboriosam numquam error ullam eaque quidem nemo deleniti laudantium eveniet magnam quisquam.</p>
+    </div>
+    <div class="soy-inlineblock">
+        <h2>Div Inline-Block</h2>
+        <p class="soy-inlineblock">Lorem, ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem unde commodi voluptate sit repellendus ipsa doloremque explicabo culpa! Laboriosam numquam error ullam eaque quidem nemo deleniti laudantium eveniet magnam quisquam.</p>
+    </div>
+    <div>
+        <h1>Resumiendo</h1>
+        <ul>
+            <li>padre block, hijo block o inline se ve bien</li>
+            <li>Padre inline Hijo block o inline: se ve raro</li>
+            <li>Inline block es un intermedio entre los 2</li>
+        </ul>
+    </div>
+
+</body>
+</html>

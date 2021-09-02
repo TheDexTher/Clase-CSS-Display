@@ -1,0 +1,14 @@
+div{
+    background-color: rgb(225, 152, 64);
+    padding: 3%;
+    width: 40%;
+
+}
+.derecha{
+    float: right;
+    
+}
+
+.izquierda{
+    float: left;
+}

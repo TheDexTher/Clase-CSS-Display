@@ -1,0 +1,68 @@
+div{
+    padding: 2%;
+    margin: 1%;
+}
+p{
+    background-color: peru;
+    padding: 2%;
+    margin: 2%;
+}
+/* Flex direction es el eje principal  puede ser vertical o horizontal. SI NO ESPECIFICO nada mas va a poner a todos los hijos en un eje en este caso horizontal */
+.flex-padre1{
+    background-color: pink;
+    display: flex;
+}
+/* Cambiando el orden de los hijos */
+.flex-padre2 .flex-hijo:first-of-type{
+    background-color: rgb(11, 209, 77);
+    order: 0;
+}
+
+
+
+/* Flex direction es el eje principal  puede ser vertical o horizontal. Con column los va a poner en el eje vertical */
+.flex-padre2{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+/* direction row y wrap: wrap  es si bajar o no los elementos por defecto viene now-wrap. El row esta dentro del flex direction y te lo pone vertical/fila */
+
+/* Cambiando el orden de los hijos */
+.flex-padre2 .flex-hijo:first-of-type{
+    background-color: rgb(11, 209, 77);
+    order: 0;
+}
+/* justify-content es como alinea respecto al eje principal */
+.flex-padre3 p{
+    width: 10%;
+}
+.flex-padre3{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+
+}
+.flex-padre4 p{
+    width: 10%;
+}
+.flex-padre4{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+
+}
+
+.flex-padre5 p{
+    width: 10%;
+}
+.flex-padre5{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+
+}

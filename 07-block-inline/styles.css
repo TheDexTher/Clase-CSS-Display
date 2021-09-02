@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(191, 196, 201);
+    padding: 1%;
+    margin: 5%;
+}
+/* Los p son block y ocupan todo el ancho disponible, se pueden pasar a inline con display:inline; */
+p{
+    background-color: rgb(12, 85, 84); 
+
+}
+.soy-block{
+    display: block;
+}
+.soy-inline{
+    display: inline;
+}
+.soy-inlineblock{
+    display: inline-block;
+}
